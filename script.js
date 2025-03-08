@@ -80,4 +80,6 @@ let allSongs = [
 
 const audio = new Audio(); // This will create a new HTML5 audio element
 
-let userData = {};
+let userData = {
+  songs: [...allSongs],
+};
